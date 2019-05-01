@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vision", "Vision", "{A9A87704-E28C-4085-AFEB-4B0092136336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CognitiveServices.Samples.ComputerVision", "Vision\CognitiveServices.Samples.ComputerVision\CognitiveServices.Samples.ComputerVision.csproj", "{1670A739-C2F2-4EC5-BAAF-6FF7F2929466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{02EB25FB-CECA-4D2A-A572-436A9AA3F06F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CognitiveServices.Samples.Common", "Common\CognitiveServices.Samples.Common\CognitiveServices.Samples.Common.csproj", "{3533A030-20D4-448C-940E-CBA24A9CA13C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1670A739-C2F2-4EC5-BAAF-6FF7F2929466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1670A739-C2F2-4EC5-BAAF-6FF7F2929466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1670A739-C2F2-4EC5-BAAF-6FF7F2929466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1670A739-C2F2-4EC5-BAAF-6FF7F2929466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3533A030-20D4-448C-940E-CBA24A9CA13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3533A030-20D4-448C-940E-CBA24A9CA13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3533A030-20D4-448C-940E-CBA24A9CA13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3533A030-20D4-448C-940E-CBA24A9CA13C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1670A739-C2F2-4EC5-BAAF-6FF7F2929466} = {A9A87704-E28C-4085-AFEB-4B0092136336}
+		{3533A030-20D4-448C-940E-CBA24A9CA13C} = {02EB25FB-CECA-4D2A-A572-436A9AA3F06F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A548F0-56A4-4E49-A10A-5DBF4D358024}
+	EndGlobalSection
+EndGlobal
